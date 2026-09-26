@@ -1,4 +1,87 @@
-const books = [
+window.bookInsightsByCategory = {
+    "Contemporary Romance": {
+        label: "Tropes & themes",
+        tags: ["Opposites attract", "Slow-burn romance", "Second chances"],
+        notes: [
+            "A warm, character-led story with an easy balance of heart and humor.",
+            "The relationships bring plenty of tension before the story reaches its softer moments."
+        ]
+    },
+    Fantasy: {
+        label: "Tropes & themes",
+        tags: ["Hidden power", "Magical worlds", "High-stakes quests"],
+        notes: [
+            "A richly imagined setting gives the adventure room to unfold.",
+            "The best moments pair a sense of wonder with personal choices that carry real weight."
+        ]
+    },
+    "Science Fiction": {
+        label: "Tropes & themes",
+        tags: ["Big ideas", "Uncharted futures", "Humanity and technology"],
+        notes: [
+            "A thought-provoking journey that uses its speculative ideas to explore human questions.",
+            "The world-building and central mystery make this a satisfying pick for curious readers."
+        ]
+    },
+    Science: {
+        label: "Themes",
+        tags: ["Big questions", "Discovery", "Our place in the universe"],
+        notes: [
+            "An inviting introduction to ideas that can change how you see the world.",
+            "Clear explanations make the subject approachable without losing its sense of wonder."
+        ]
+    },
+    "Mystery/Thriller": {
+        label: "Tropes & themes",
+        tags: ["Unreliable clues", "Secrets and lies", "A twisty mystery"],
+        notes: [
+            "A brisk, suspenseful read that keeps the questions coming.",
+            "Small clues and shifting suspicions make it fun to guess what happens next."
+        ]
+    },
+    "Historical Fiction": {
+        label: "Tropes & themes",
+        tags: ["Life in another era", "Resilience", "Lives shaped by history"],
+        notes: [
+            "A vivid historical setting gives the characters' choices extra resonance.",
+            "Personal stories make the larger events feel immediate and human."
+        ]
+    },
+    "Self-Help": {
+        label: "Themes",
+        tags: ["Personal growth", "Small steps", "Building better habits"],
+        notes: [
+            "Practical ideas make this an easy book to return to and revisit.",
+            "A thoughtful reminder that meaningful change can start with manageable steps."
+        ]
+    },
+    "Young Adult": {
+        label: "Tropes & themes",
+        tags: ["Finding your voice", "Coming of age", "Friendship and courage"],
+        notes: [
+            "An engaging coming-of-age story with a memorable central voice.",
+            "The friendships and challenges give the adventure plenty of heart."
+        ]
+    },
+    Horror: {
+        label: "Tropes & themes",
+        tags: ["Gothic atmosphere", "Uncanny mysteries", "Fear close to home"],
+        notes: [
+            "A chilling atmosphere does as much work as the scares themselves.",
+            "Best enjoyed when you want an unsettling story to linger after the last page."
+        ]
+    },
+    "Literary Fiction": {
+        label: "Tropes & themes",
+        tags: ["Identity", "Life-changing choices", "Quiet revelations"],
+        notes: [
+            "A reflective story that leaves room to think about its characters and choices.",
+            "Subtle details and emotional turns reward a slower, more attentive read."
+        ]
+    }
+};
+
+window.books = [
     // Contemporary Romance - 5 books
     {
         id: 1,
