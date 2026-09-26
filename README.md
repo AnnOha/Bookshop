@@ -1,4 +1,4 @@
-# Mini-Shop Bookshop UI
+# BookNook : Mini-UI-Bookshop 
 
 A frontend-only interactive bookshop demonstration built with vanilla HTML, CSS, and JavaScript. Users can browse a list of books and view detailed information in a modal popup.
 
